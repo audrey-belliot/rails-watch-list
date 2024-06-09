@@ -1,0 +1,19 @@
+<h1>My Lists</h1>
+
+<div class="cards">
+
+<% @lists.each do |list| %>
+<div class="card-movie">
+<%= list.name %>
+<br><%= link_to "View list", list_path(list)  %>
+</div>
+<% end %>
+
+
+</div>
+
+
+
+
+<button type="button" class="btn btn-success"><%= link_to "Create new movie list", new_list_path %>
+</button>
