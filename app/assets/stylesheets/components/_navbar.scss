@@ -1,9 +1,19 @@
 .navbar-lewagon {
   justify-content: space-between;
   background: white;
+
+  ul {
+    background-color: $green;
+  }
+
   li {
     display: inline;
-  }
+ }
+
+ a {
+  padding: 8px;
+  color: white !important
+}
 
 }
 
